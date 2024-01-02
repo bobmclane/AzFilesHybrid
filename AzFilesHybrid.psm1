@@ -6944,9 +6944,9 @@ function Move-OnPremSharePermissionsToAzureFileShare
 $AzurePrivateDnsIp = [string]$null
 $DnsForwarderTemplateVersion = [Version]$null
 $DnsForwarderTemplate = [string]$null
-$SkipPowerShellGetCheck = $false
-$SkipAzPowerShellCheck = $false
-$SkipDotNetFrameworkCheck = $false
+$SkipPowerShellGetCheck = $true
+$SkipAzPowerShellCheck = $true
+$SkipDotNetFrameworkCheck = $true
 
 function Invoke-ModuleConfigPopulate {
     <#
